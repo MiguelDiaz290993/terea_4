@@ -1,0 +1,124 @@
+div{
+    display: inline-flex;
+}
+.twitter{
+    position: relative;
+    width: 250px;
+    height: 350px;
+    border: 1px solid black;
+}
+.twitter img{
+    position: absolute;
+    top: 30px;
+    left: calc(50% - 30px);
+}
+.twitter h1{
+    position: absolute;
+    top: 60px;
+    text-align: center;
+    left: calc(50% - 50px);
+}
+.twitter p{
+    position: absolute;
+    top: 110px;
+    text-align: center;
+    left: calc(50% - 125px);
+}
+.twitter button{
+    background-color: rgb(7, 103, 187);
+    position: absolute;
+    bottom: 30px;
+    width: 200px;
+    height: 50px;
+    left: calc(50% - 100px);
+    border-radius: 35px;
+}
+.twitter:hover {
+    background-color: blue;
+    color: white;
+}
+.twitter button:hover{
+    background-color: rgb(132, 168, 234);
+    color: blue;
+}
+.instagram{
+    position: relative;
+    width: 250px;
+    height: 350px;
+    border: 1px solid black;
+}
+.instagram img{
+    position: absolute;
+    top: 30px;
+    left: calc(50% - 30px);
+}
+.instagram h1{
+    position: absolute;
+    top: 60px;
+    text-align: center;
+    left: calc(50% - 60px);
+}
+.instagram p{
+    position: absolute;
+    top: 110px;
+    text-align: center;
+    left: calc(50% - 125px);
+}
+
+.instagram button{
+    background-color: rgb(173, 173, 18);
+    position: absolute;
+    bottom: 30px;
+    width: 200px;
+    height: 50px;
+    left: calc(50% - 100px);
+    border-radius: 35px;
+}
+.instagram:hover{
+    background-color: yellow;
+    color: orange;
+}
+.instagram button:hover{
+    background-color: rgb(175, 188, 127);
+    color: yellow;
+}
+.youtube{
+    position: relative;
+    width: 250px;
+    height: 350px;
+    border: 1px solid black;
+}
+.youtube img{
+    position: absolute;
+    top: 30px;
+    left: calc(50% - 30px);
+}
+.youtube h1{
+    position: absolute;
+    top: 60px;
+    text-align: center;
+    left: calc(50% - 50px);
+}
+.youtube p{
+    position: absolute;
+    top: 110px;
+    text-align: center;
+    left: calc(50% - 125px);
+}
+.youtube button{
+    background-color: rgb(241, 101, 101);
+    position: absolute;
+    bottom: 30px;
+    width: 200px;
+    height: 50px;
+    left: calc(50% - 100px);
+    border-radius: 35px;
+}
+.youtube:hover{
+    background-color: red;
+    color: white;
+}
+.youtube button:hover{
+    background-color: rgb(201, 90, 90);
+    color: red;
+}
